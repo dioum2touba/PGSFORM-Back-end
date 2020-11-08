@@ -1,0 +1,73 @@
+﻿{
+   "ContextClassName": "PgsformContext",
+   "ContextNamespace": null,
+   "DefaultDacpacSchema": null,
+   "FilterSchemas": false,
+   "IncludeConnectionString": false,
+   "ModelNamespace": null,
+   "OutputContextPath": "Models",
+   "OutputPath": "Models",
+   "ProjectRootNamespace": "PGSFORM",
+   "Schemas": null,
+   "SelectedHandlebarsLanguage": 0,
+   "SelectedToBeGenerated": 0,
+   "Tables": [
+      {
+         "HasPrimaryKey": true,
+         "Name": "commentaire"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "competence"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "notification"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "privilege"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "privilegeparrole"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "projet"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "promo"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "referenciel"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "ressource"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "role"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "utilisateur"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "utilisateurparreferenciel"
+      }
+   ],
+   "UseDatabaseNames": false,
+   "UseDbContextSplitting": false,
+   "UseFluentApiOnly": true,
+   "UseHandleBars": false,
+   "UseInflector": false,
+   "UseLegacyPluralizer": false,
+   "UseNodaTime": false,
+   "UseSpatial": false,
+   "UseStoredProcedures": false
+}
