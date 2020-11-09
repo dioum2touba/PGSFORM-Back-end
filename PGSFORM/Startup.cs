@@ -31,7 +31,7 @@ namespace PGSFORM
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddDbContext<PgsformContext>(options =>
-                options.UseSqlServer(
+                options.UseMySql(
                     Configuration.GetConnectionString("DefaultConnection")));
 
 
